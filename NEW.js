@@ -69,36 +69,38 @@ function Assemble(){
 // do {
 //   num = prompt("Enter a number greater than 10:")
 // } while (num <= 10)
-//     console.log("stop")
-// task10
-var day = prompt("Enter a day (1 to 7)");
+// //     console.log("stop")
+// // task10
+// var day = prompt("Enter a day (1 to 7)");
 
-switch(day) {
-  case "1":
-    console.log("1 for Monday");
-    break;
-  case "2": 
-    console.log("2 for Tuesday");
-    break;
-  case "3": 
-    console.log("3 for Wednesday");
-    break;
-  case "4": 
-    console.log("4 for Thursday");
-    break;
-  case "5": 
-    console.log("5 for Friday");
-    break;
-  case "6": 
-    console.log("6 for Saturday");
-    break;
-  case "7": 
-    console.log("7 for Sunday");
-    break;
-  default:
-    console.log("Something went wrong, please enter a number between 1 and 7");
+// switch(day) {
+//   case "1":
+//     console.log("1 for Monday");
+//     break;
+//   case "2": 
+//     console.log("2 for Tuesday");
+//     break;
+//   case "3": 
+//     console.log("3 for Wednesday");
+//     break;
+//   case "4": 
+//     console.log("4 for Thursday");
+//     break;
+//   case "5": 
+//     console.log("5 for Friday");
+//     break;
+//   case "6": 
+//     console.log("6 for Saturday");
+//     break;
+//   case "7": 
+//     console.log("7 for Sunday");
+//     break;
+//   default:
+//     console.log("Something went wrong, please enter a number between 1 and 7");
+let a 
+onclick= Clicked;
+console.log(a);
+alert("VEER")
+
+
 }
-
-
-}
-Assemble ()
