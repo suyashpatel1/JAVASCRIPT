@@ -65,15 +65,27 @@ function String(){
 // let text = " This is a String of Js "
 // console.log(text.replaceAll("String","js"))
 // *Split method 
+// let officer = "HE is an officer"
+// console.log(officer.split("-"));
 
 
 // *Array
 // let Fruits =["apple","banana"]
 }
 String()
+// TEMPLATE LETRALS('')
+// It support both single and double qoutes
+//It support Multiline String
+//It support all html tags
+function SIYA(){
+    // let str = `<h1>HELLO WORLD</h1> `
+    // document.write(str)
+    // let name = "Suyash"
+    // let age =25
+    // alert('I am ${name} and i am age${year} old.')
+let a =45
+let b=12
+alert (`The sum of ${a} and ${b} is ${a+b}`)
 
-
-
-
-
-
+}
+SIYA()
