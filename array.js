@@ -36,3 +36,6 @@
 
 
 // DESTRUCTURRING
+// let arr =["Apple","orange","mango","banana"]
+// const [a,b,c,d] = arr  //Destructuring 
+// console.log(c)
