@@ -20,3 +20,15 @@
 
 // }
 // sum(5,7)
+// let suyash =(myname,myage)=>{
+//     return myname+myage
+
+
+// }
+// let result=suyash (4,8)
+// console.log(result)
+
+
+
+// calculate the are of  rectangle
+
