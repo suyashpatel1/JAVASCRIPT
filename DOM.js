@@ -1,7 +1,7 @@
 // DOM - Method String 
 
 
-function String(){
+// function String(){
     // *Length of string
 // let text= "siddharth"   
 // console.log(text.length)
@@ -71,21 +71,46 @@ function String(){
 
 // *Array
 // let Fruits =["apple","banana"]
-}
-String()
+// }
+// // String()
 // TEMPLATE LETRALS('')
 // It support both single and double qoutes
 //It support Multiline String
 //It support all html tags
-function SIYA(){
+// function SIYA(){
     // let str = `<h1>HELLO WORLD</h1> `
     // document.write(str)
     // let name = "Suyash"
     // let age =25
-    // alert('I am ${name} and i am age${year} old.')
-let a =45
-let b=12
-alert (`The sum of ${a} and ${b} is ${a+b}`)
+//     // alert('I am ${name} and i am age${year} old.')
+// let AAJAA=()=>{
+//     // alert("AAJAA")
+//     // method DOM
+//     // 1. document.getElementById("")
+//     // 2.document.getElementsByName("")
+//     // Special  document.querySelector
+// let me=document.querySelector(".box1")
+   
+// //  me.style.color="brown"
+// // me.style.background.Color="Red"
+// // me.style.border="2px solid brown"
+// me.style.backgroundImage="Url('')"
 
+// }
+// let button=()=>{
+//     let myname=document.querySelector(".box1")
+   
+//     // myname.style.color="Green"
+//     myname.style.backgroundImage="url(./bab.jpg)"
+//     // myname.style.border="2px solid red"
+  
+// }
+// let btn1=()=>{
+//     let reset=document.querySelector(".box1")
+//     reset.style.reset
+
+// }
+let btn1=()=>{
+    let box=document.querySelector(".box1")
+box.style.backgroundColor="Red"
 }
-SIYA()

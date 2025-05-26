@@ -30,5 +30,5 @@
 
 
 
-// calculate the are of  rectangle
+
 
