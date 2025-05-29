@@ -110,7 +110,21 @@
 //     reset.style.reset
 
 // }
-let btn1=()=>{
-    let box=document.querySelector(".box1")
-box.style.backgroundColor="Red"
-}
+// let btn1=()=>{
+//      let box=document.querySelector(".box1")
+//  box.style.backgroundColor="Red"
+//  }
+// SUM 
+// let Show = () => {
+//   let see = document.querySelector("#num1").value;
+//   let seeu = document.querySelector("#num2").value;
+//   let result = document.querySelector("#show");
+//   result.innerHTML = Number(see) + Number(seeu);
+// };
+
+// // let Show=()=>{
+
+// //   let store =document.querySelector("#text")
+// //   let ans =
+// }
+

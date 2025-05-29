@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <style>
+   
+     
+    th {
+      width: 60px;
+      height: 60px;
+      background-color: rgb(50, 50, 50);
+      color: white;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 20px;
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .purple {
+      background-color: #757676;
+    }
+   
+  </style>
+</head>
+<body>
+    <script src="/calcu.js"></script>
+  
+  <table style="border-collapse: separate; border-spacing: 15px; border-radius: 20px; background-color: #16181D;" align="center">
+    <tr>
+      <th colspan="4" style="background-color:  #32494B;" id="display" ></th>
+    </tr>
+    <tr>
+      <th onclick="handleClick('AC')" class="purple">AC</th>
+      <th onclick="handleClick('()')"
+       class="purple">()</th>
+      <th onclick="handleClick('%')" 
+      class="purple">%</th>
+      <th onclick="handleClick('/')" class="purple">÷</th>
+    </tr>
+    <tr>
+      <th onclick="handleClick('7')">7</th>
+      <th onclick="handleClick('8')">8</th>
+      <th onclick="handleClick('9')">9</th>
+      <th onclick="handleClick('*')" 
+      class="purple">×</th>
+    </tr>
+    <tr>
+      <th onclick="handleClick('4')">
+        4</th>
+      <th onclick="handleClick('5')">5</th>
+      <th onclick="handleClick('6')">6</th>
+      <th onclick="handleClick('-')" 
+      class="purple">−</th>
+    </tr>
+    <tr>
+      <th onclick="handleClick('1')">1</th>
+      <th onclick="handleClick('2')">2</th>
+      <th onclick="handleClick('3')">3</th>
+      <th onclick="handleClick('+')" class="purple">
+        +</th>
+    </tr>
+    <tr>
+      <th onclick="handleClick('0')"
+      >0</th>
+      <th onclick="handleClick('.')">.</th>
+      <th onclick="handleClick('DEL')" style="background-color:rgb(139, 0, 0)">DEL</th>
+      <th onclick="handleClick('=')" style="background-color: #5095f5;">=</th>
+    </tr>
+  </table>
+</body>
+</html>
