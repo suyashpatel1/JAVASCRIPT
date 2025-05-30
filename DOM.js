@@ -128,3 +128,33 @@
 // //   let ans =
 // }
 
+let validate=()=>{
+let name=document.querySelector("#Name").value
+let num=document.querySelector("#Phone ").value
+let mail=document.querySelector("#E-mail").value
+let pass=document.querySelector("#Password ").value
+let cpass =document.querySelector("#Confirm").value
+
+
+let ename=document.querySelector("#name")
+let enumb=document.querySelector("#Number")
+let email=document.querySelector("#mail")
+let epass=document.querySelector("#Pass")
+let ec=document.querySelector("#Cpass")
+if (name=="")
+{
+    let namebox=document.querySelector("#Name")
+    namebox.style.border= "1px solid red"
+    
+     namebox.placeholder="Please this field is required"
+     namebox.
+    ename.style.color="Red"
+    
+    return false
+}
+// else if(isNaN(name)){
+    
+// }
+
+else if ((pass.match()))
+} 
