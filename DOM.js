@@ -147,14 +147,49 @@ if (name=="")
     namebox.style.border= "1px solid red"
     
      namebox.placeholder="Please this field is required"
-     namebox.
-    ename.style.color="Red"
+     
+  
     
     return false
 }
-// else if(isNaN(name)){
-    
-// }
+else if (isNaN(num)) {
+        let phonebox = document.querySelector("#Phone");
+        phonebox.style.border = "1px solid red";
+        phonebox.value = "";
+        phonebox.placeholder = "Only digits allowed";
+        enumb.style.color = "red";
+        return false;
+    }
+else if (!mail.includes("@") || !mail.includes(".")) {
+        let mailbox = document.querySelector("#E-mail");
+        mailbox.style.border = "1px solid red";
+        mailbox.value = "";
+        mailbox.placeholder = "Enter a valid email";
+        email.style.color = "red";
+        return false;
+    }
 
-else if ((pass.match()))
-} 
+ else if (!pass.match(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,15}$/)) {
+    let passbox = document.querySelector("#Password");
+    passbox.style.border = "1px solid red";
+    passbox.value = "";
+    passbox.placeholder = "Choose strong one";
+    epass.style.color = "red";
+    return false;
+}
+
+
+else if (cpass!=pass){
+    let namepass=document.querySelector("#Confirm")
+    pass.style.border= "1px solid red"
+    pass.placeholder="Password does not match"
+
+    return false
+
+
+
+}
+
+
+}
+
