@@ -16,4 +16,4 @@
       }
 
       show.innerHTML = store;
-    };
+    }; 
